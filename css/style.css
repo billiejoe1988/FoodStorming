@@ -1,0 +1,17 @@
+body{
+    overflow-x: hidden;
+}
+
+#menu a{
+    font-size: 18px;
+    font-weight: bolt;
+}
+
+#menu button{
+    font-size: 18px;
+    font-weight: bolt;
+}
+
+.carousel-inner{
+    max-height: 39rem;
+}
