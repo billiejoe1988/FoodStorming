@@ -35,13 +35,6 @@ body{
     padding-right: 20px;
     height: 48px;
 }
-#bg-footer{
-    position: relative;
-    top: -260px;
-}
-#footer{
-    background-color: green;
-}
 #iconos{
     font-size: 26px;
     padding: 8px;
