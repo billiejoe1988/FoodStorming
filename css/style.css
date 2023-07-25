@@ -1,7 +1,9 @@
 body{
     overflow-x: hidden;
+    padding: 0;
+    margin: 0;
 }
-
+/* nav */
 #menu a{
     font-size: 18px;
     font-weight: bolt;
@@ -11,7 +13,7 @@ body{
     font-size: 18px;
     font-weight: bolt;
 }
-
+/* main principal */
 .carousel-inner{
     max-height: 39rem;
 }
@@ -39,6 +41,7 @@ body{
     font-size: 26px;
     padding: 8px;
 }
+/* media  */
 @media (max-width: 1200px){
     #local{
         flex-wrap: wrap;
@@ -58,6 +61,10 @@ body{
         width: 100% !important;
         text-align: center;
     }
+    .container_footer{
+        flex-direction: row;
+        align-items: center;
+    }  
 }
 @media (max-width:576px){
     .icono-wrap{
