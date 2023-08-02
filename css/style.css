@@ -83,3 +83,16 @@ body{
         justify-content: center;
     }
 }
+@media (max-width: 446px){
+    .img_logo{
+        height: 75px !important; 
+        width: 74px;
+        padding-right: 1px !important; 
+        padding-left: 1px !important; 
+    }
+    .iconos{
+        padding-right: 1px !important; 
+        padding-left: 1px !important; 
+    }
+
+}
