@@ -24,7 +24,7 @@ body{
 }
 #local{
     background-color: ghostwhite;
-    padding-bottom: 300px;
+    padding-bottom: 100px;
     display: flex;
     justify-content: center;
 }

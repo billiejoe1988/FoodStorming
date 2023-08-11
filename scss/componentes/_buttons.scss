@@ -1,0 +1,47 @@
+//btn
+.btn{
+    --#{$prefix}-btn-bg: #($color-terciario);
+    --#{$prefix}-btn-color: #($color-blanco);
+    --#{$prefix}-btn-border-color: #($color-blanco);
+    --#{$prefix}-btn-hover-bg: #($color-full-contraste);
+    --#{$prefix}-btn-hover-color: #($color-blanco);
+
+    outline: 0;
+    text-align: center;
+    transition: all 0.2 ease;
+    text-transform: none;
+    text-decoration: none;
+
+    color: $color-blanco;
+    border-color: $color-terciario;
+    background-color: $color-secundario;
+
+//estados
+ &:hover{
+    color: var(--#{prefix}-btn-hover-color);
+    background-color: var(--#{$prefix}-btn-hover-bg);
+ }
+ &:focus{    
+    outline: 0;
+    box-shadow: 0 0 0 2px $color-focus;
+ }
+
+//types
+ &.btn-outline{
+    --#{prefix}-btn-bg: transparent;
+    --#{prefix}-btn-color: #{$body-text-color};
+    --#{prefix}-btn-border-color: #{$color-primario};
+    --#{prefix}-btn-hover-bg: #{$color-terciario};
+ }
+
+ &.btn-plains{
+    --#{prefix}-btn-bg: transparent;
+    --#{prefix}-btn-color: #{$body-text-color};
+    --#{prefix}-btn-hover-bg: #{$color-terciario};
+ }
+
+ //colors
+@include btncolorvariation ("primary", $color-primary, $color-primary-hov, $color-primary-constraste);
+@include btncolorvariation ("secondary", $color-secondary, $color-secondary-hov, $color-secondary-constraste);
+
+}
