@@ -1,0 +1,11 @@
+{
+  "name": "proyecto_boot",
+  "version": "1.0.0",
+  "description": "Proyecto pensado para tercera entrega de desarrollo web en coderhouse.\r utilizando full bootstrap con todas las herramientas que pude haber aprendido.\r En estsa version actualizada para esta etapa, Agregandole estructura cambios con SASS, animaciones y SEO.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mauricio arbelaiz",
+  "license": "ISC"
+}

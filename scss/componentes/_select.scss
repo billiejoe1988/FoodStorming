@@ -1,0 +1,20 @@
+$select-bg-color: var(--#{$prefix}-select-bg-color, $color-focus) !important;
+$select-hover-color: var(--#{$prefix}-select-hover-color, $color-blanco) !important;
+$select-text-color: var(--#{$prefix}-select-text-color, $color-primary) !important;
+$select-border-color: var(--#{$prefix}-select-border-color, $color-blanco) !important;
+$select-focus-color: var(--#{$prefix}-select-focus-color, $color-primary) !important;
+
+.select{
+   color: $select-text-color;
+   border-color: $select-border-color;
+   background-color: $select-bg-color;
+
+   &:hover{
+    background-color: $select-hover-color;
+   }
+   &:focus{
+    outline: 0;
+    box-shadow: 0 0 0 1px $select-focus-color;
+    border-color: $select-focus-color;
+   }
+}

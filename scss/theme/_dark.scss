@@ -1,0 +1,51 @@
+// local: hay q cambiar el fondo 
+:root {
+  &[data-bs-theme="dark"] {
+    color-scheme: dark;
+
+    --color: #1f2023 !important;
+    --color-primary: #e4f5b1 !important;
+    --color-secondary: #2a2b32 !important;
+    --color-contraste: #635274 !important;
+    --color-blanco: #ffffff !important;
+
+    --prefix-body-bg-color: #1f2023 !important;
+    --prefix-body-text-color: #bebebe !important;
+    --prefix-heading-text-color: #ffffff !important;
+
+    --prefix-header-bg-color: #2e2f36 !important;
+    --prefix-header-border-color: #393b43 !important;
+    
+    --prefix-nav-bg-color: #393939 !important;
+
+    --prefix-footer-bg-color: #393b43 !important;
+
+    --prefix-color-primary: #e4f5b1 !important;
+    --prefix-color-primary-hover: #e4f5b1 !important;
+    --prefix-color-primary-contrast: #1f2023 !important;
+
+    --prefix-nav-link: #e4f5b1 !important;
+    --prefix-link-text-color: #e4f5b1 !important;
+  
+    --prefix-hero-title-color: #a7dbab!important;
+    --prefix-hero-text-color: #e4f5b1 !important;
+
+    --prefix-color-secondary: #393b43 !important;
+    --prefix-color-secondary-hover: #2b2c32 !important;
+    --prefix-color-secondary-contrast: #e4f5b1 !important;
+
+    --prefix-input-bg-color: #27282d !important;
+    --prefix-input-border-color: #393b43 !important;
+    --prefix-input-focus-border-color: #e4f5b1!important;
+
+    --prefix-select-bg-color: #2e2f36 !important;
+    --prefix-select-hover-color: #393b43 !important;
+    --prefix-select-border-color: transparent !important;
+    --prefix-select-focus-color:#e4f5b1!important;
+
+    --prefix-card-bg: #2a2b32 !important;
+    --prefix-card-border: #393b43 !important;
+
+    --prefix-local-bg-color: #2a2b32 !important; 
+  }
+}
