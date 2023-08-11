@@ -1,0 +1,14 @@
+$card-bg: var(--#{$prefix}-card-bg, $color-blanco);
+$card-radius: var(--#{$prefix}-card-radius, 12px);
+$card-border: var(--#{$prefix}-cards-border, $color-secundario);
+
+.card{
+    border: 1px solid $card-border;
+    box-shadow: $shadow-xl;
+    border-radius: $card-radius;
+    background-color: $card-bg;
+
+    &:hover{
+        box-shadow: $shadow;
+    }
+}

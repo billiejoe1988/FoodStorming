@@ -1,0 +1,20 @@
+$input-bg-color: var(--#{$prefix}-input-bg-color, $color-blanco);
+$input-text-color: var(--#{$prefix}-input-text-color, $color-full-contraste);
+$input-border-color: var(--#{$prefix}-input-border-color, $color-terciario);
+$input-focus-boder-color: var(--#{$prefix}-input-focus-border-color, $color-secundario);
+
+.input{
+    width: 100%;
+    color: $input-text-color;
+    border: 1px solid $input-border-color;
+    background-color: $input-bg-color;
+
+     &::placeholder{
+        color: $input-text-color;
+        opacity: 0.5;
+     }
+     &:focus{
+        outline: 0;
+        border-color: $input-focus-boder-color;
+     }
+}
