@@ -1,0 +1,30 @@
+.nav{
+    --#{$prefix}-navbar-bg: #($color-primary);
+    --#{$prefix}-nav-color: #($color-primary-contrast);
+
+    background-color: var(--#{$prefix}-navbar-bg);
+    &-link{
+        color: $color-full-contraste;
+        opacity: 0.8;
+        transition: all 0.2 ease-in-out;
+        text-decoration: none;
+    
+        &:hover{
+            opacity: 1;
+          &:after{
+            transform: scale3d(1, 1, 1);
+          }
+        }
+        &:after{
+            width: 100%;
+            height: 2px;
+            content: '';
+            display: block;
+            transform: scale (0, 0, 1);
+            transition: all 0.2 ease;
+            border-radius: 2px;
+            transform-origin: center;
+            background-color: $color-secondary;
+        }
+    }
+}
