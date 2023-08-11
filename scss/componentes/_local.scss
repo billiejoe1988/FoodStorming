@@ -1,0 +1,9 @@
+// area donde esta el mapa y clima
+$local-bg-color: var(--#{prefix}-local-bg-color, $color-primary);
+
+#local{
+    background-color: $local-bg-color;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
