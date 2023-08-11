@@ -1,6 +1,11 @@
 //variables
+@import './variables';
 //mixins
+@import './mixins';
 //base
+@import './base/utils';
 //theme
+@import './theme/dark';
 //componentes
 //layout
+@import './layouts/base_layout';
