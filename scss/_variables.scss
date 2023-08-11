@@ -1,0 +1,29 @@
+// css variable prefix
+$prefix: "fs" !default;
+
+// colores
+$color-principal:#e4f5b1 !default;
+$color-secundario:#a7dbab !default;
+$color-terciario:#7bb0a8 !default;
+$color-contraste:#635274 !default;
+$color-full-contraste: #512b52 !default;
+$color-blanco: white !default;
+
+//Shadow color
+$shadow-color: var(--#{$prefix}-shadow-color, rgb(51 65 85)) !default;
+$shadow: 0 1px 3px 0 rgb($shadow-color / 0.1),0 1px 2px -1px rgb($shadow-color / 0.1)!default;
+
+//global variables
+$body-bg-color: var(--#{prefix}-body-bg-color, $color-principal);
+$body-text-color: var(--#{prefix}-body-text-color, $color-contraste);
+$heading-text-color: var(--#{prefix}-heading-text-color, $color-full-contraste);
+
+$color-primary: var(--#{prefix}-color-primary, $color-secundario);
+$color-primary-hover: var(--#{$prefix}-color-primary-hover, $color-principal);
+$color-primary-constrast: var(--#{$prefix}-color-primary-contrast, $color-contraste);
+
+$color-secondary: var(--#{prefix}-color-secondary, $color-terciario);
+$color-secondary-hover: var(--#{prefix}-color-secondary-hover, $color-contraste);
+$color-secondary-contrast: var(--#{$prefix}-color-secondary-contrast, $color-full-contraste);
+
+$color-focus: var(--#{prefix}-color-focus, $color-primario);
