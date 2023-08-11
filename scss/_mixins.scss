@@ -1,0 +1,20 @@
+@mixin btncolorvariation($nombre, $color, $color-hover, $color-contraste){
+    &.btn-primary{
+        --#{$prefix}-btn-bg: #($color);
+        --#{$prefix}-btn-color: #{$color-contrastre};
+        --#{$prefix}-btn-hover-bg: #{$color-hover};
+        --#{$prefix}-btn-border-color: #{$color-contraste};
+        &.btn-outline{
+            --#{$prefix}-btn-bg:transparent;
+            --#{$prefix}-btn-color: #($color);
+            --#{$prefix}-btn-hover-bg: #($color);
+            --#{$prefix}-btn-hover-color: #($color-contrastre);
+            --#{$prefix}-btn-border-color: #($color);
+        }
+        &.btn-plain{
+            --#{$prefix}-btn-bg: transparent;
+            --#{$prefix}-btn-color: #($color);
+            --#{$prefix}-btn-hover-bg: #($color);
+        }
+    }
+}
