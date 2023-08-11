@@ -4,7 +4,7 @@ $card-border: var(--#{$prefix}-cards-border, $color-secundario);
 
 .card{
     border: 1px solid $card-border;
-    box-shadow: $shadow-xl;
+    box-shadow: $shadow;
     border-radius: $card-radius;
     background-color: $card-bg;
 

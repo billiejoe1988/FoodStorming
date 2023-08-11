@@ -14,7 +14,7 @@ $shadow-color: var(--#{$prefix}-shadow-color, rgb(51 65 85)) !default;
 $shadow: 0 1px 3px 0 rgb($shadow-color / 0.1),0 1px 2px -1px rgb($shadow-color / 0.1)!default;
 
 //global variables
-$body-bg-color: var(--#{prefix}-body-bg-color, $color-principal);
+$body-bg-color: var(--#{prefix}-body-bg-color, $color-blanco);
 $body-text-color: var(--#{prefix}-body-text-color, $color-contraste);
 $heading-text-color: var(--#{prefix}-heading-text-color, $color-full-contraste);
 
@@ -26,4 +26,4 @@ $color-secondary: var(--#{prefix}-color-secondary, $color-terciario);
 $color-secondary-hover: var(--#{prefix}-color-secondary-hover, $color-contraste);
 $color-secondary-contrast: var(--#{$prefix}-color-secondary-contrast, $color-full-contraste);
 
-$color-focus: var(--#{prefix}-color-focus, $color-primario);
+$color-focus: var(--#{prefix}-color-focus, $color-principal);

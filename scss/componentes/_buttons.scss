@@ -30,7 +30,7 @@
  &.btn-outline{
     --#{prefix}-btn-bg: transparent;
     --#{prefix}-btn-color: #{$body-text-color};
-    --#{prefix}-btn-border-color: #{$color-primario};
+    --#{prefix}-btn-border-color: #{$color-primary};
     --#{prefix}-btn-hover-bg: #{$color-terciario};
  }
 
@@ -41,7 +41,7 @@
  }
 
  //colors
-@include btncolorvariation ("primary", $color-primary, $color-primary-hov, $color-primary-constraste);
-@include btncolorvariation ("secondary", $color-secondary, $color-secondary-hov, $color-secondary-constraste);
+@include btncolorvariation ("primary", $color-primary, $color-primary-hover, $color-primary-hover);
+@include btncolorvariation ("secondary", $color-secondary, $color-secondary-hover, $color-secondary-hover);
 
 }

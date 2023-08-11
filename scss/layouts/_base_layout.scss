@@ -1,27 +1,48 @@
-$header-bg-color: var(--#{prefix}-header-bg-color, $color-secundario);
-$header-border-color: var(--#{prefix}-header-border-color, $color-terciario);
-$footer-bg-color: var(--#{prefix}-footer-bg-color, $color-principal);
-$footer-border-color: var(--#{prefix}-footer-border-color, $color-secundario);
-$hero-text-color:  var(--#{prefix}-hero-text-color, $color-full-contraste);
+$header-bg-color: var(--#{prefix}-header-bg-color, $color-secundario) !important;
+$header-border-color: var(--#{prefix}-header-border-color, $color-terciario)!important;
+$footer-bg-color: var(--#{prefix}-footer-bg-color, $color-principal) !important ;
+$footer-border-color: var(--#{prefix}-footer-border-color, $color-secundario)!important;
+$hero-title-color:  var(--#{prefix}-hero-title-color, $color-full-contraste)!important;
+$hero-text-color:  var(--#{prefix}-hero-text-color, $color-contraste)!important;
+body{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
 
 .base{
     background-color: $body-bg-color;
     &-header{
         border-bottom: 1px solid $header-border-color;
         background-color: $header-bg-color;
+        &-text{
+            color: $hero-title-color;
+        }
+    }
+    &-navbar{
+        background-color: $footer-bg-color;
     }
     &-footer{
         background-color: $footer-bg-color;
-        p{
-            color:white;
-        }
-
     }
 }
-.hero-section{
-    padding: 96px 16px;
-    background-image: lineal-gradient(to right, $footer-bg-color, $header-border-color) ;
-}
 .hero-title{
+    color:$hero-title-color;
+}
+.hero-text{
     color:$hero-text-color;
+}
+
+.carousel-inner{
+    max-height: 39rem;
+}
+
+#iconos{
+    font-size: 26px;
+    padding: 8px;
+}
+.main_quienes{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }

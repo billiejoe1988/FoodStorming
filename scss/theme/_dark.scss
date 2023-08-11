@@ -1,47 +1,46 @@
 // local: hay q cambiar el fondo 
 :root {
-    &[data-bs-theme=dark] {
-      color-scheme: dark;
+  &[data-bs-theme="dark"] {
+    color-scheme: dark;
 
     --color: #1f2023;
-    --color: #2a2b32;
-    --color: #393b43;
-    --color: #ea90ff;
+    --color-primary: #ea90ff;
+    --color-secondary: #2a2b32;
 
-    --#{$prefix}-body-bg-color: #1f2023;
-    --#{$prefix}-body-text-color: #bebebe;
-    --#{$prefix}-heading-text-color: #FFFFFF;
+    --prefix-body-bg-color: #1f2023;
+    --prefix-body-text-color: #bebebe;
+    --prefix-heading-text-color: #ffffff;
 
-    --#{$prefix}-header-bg-color: #2e2f36;
-    --#{$prefix}-header-border-color: #393b43;
+    --prefix-header-bg-color: #2e2f36;
+    --prefix-header-border-color: #393b43;
 
-    --#{$prefix}-footer-bg-color: #393b43;
+    --prefix-footer-bg-color: #393b43;
 
-    --#{$prefix}-hero-text-color: #1f2023;
-    --#{$prefix}-hero-gradient-start: #ea90ff;
-    --#{$prefix}-hero-gradient-end: #eaff6a;
+    --prefix-hero-text-color: #1f2023;
+    --prefix-hero-gradient-start: #ea90ff;
+    --prefix-hero-gradient-end: #eaff6a;
 
-    --#{$prefix}-color-primary: #eaff6a;
-    --#{$prefix}-color-primary-hover: #d4e761;
-    --#{$prefix}-color-primary-contrast: #1f2023;
+    --prefix-color-primary: #eaff6a;
+    --prefix-color-primary-hover: #d4e761;
+    --prefix-color-primary-contrast: #1f2023;
 
-    --#{$prefix}-color-secondary: #393b43;
-    --#{$prefix}-color-secondary-hover: #2b2c32;
-    --#{$prefix}-color-secondary-contrast: #d4e761;
+    --prefix-color-secondary: #393b43;
+    --prefix-color-secondary-hover: #2b2c32;
+    --prefix-color-secondary-contrast: #d4e761;
 
-    --#{$prefix}-input-bg-color: #27282D;
-    --#{$prefix}-input-border-color: #393b43;
-    --#{$prefix}-input-focus-border-color: #eaff6a;
-    --#{$prefix}-input-invalid-color: #ff896f;
+    --prefix-input-bg-color: #27282d;
+    --prefix-input-border-color: #393b43;
+    --prefix-input-focus-border-color: #eaff6a;
+    --prefix-input-invalid-color: #ff896f;
 
-    --#{$prefix}-select-bg-color: #2e2f36;
-    --#{$prefix}-select-hover-color: #393b43;
-    --#{$prefix}-select-border-color: transparent;
-    --#{$prefix}-select-focus-color: #eaff6a;
+    --prefix-select-bg-color: #2e2f36;
+    --prefix-select-hover-color: #393b43;
+    --prefix-select-border-color: transparent;
+    --prefix-select-focus-color: #eaff6a;
 
-    --#{$prefix}-card-bg: #2a2b32;
-    --#{$prefix}-card-border: #393b43;
+    --prefix-card-bg: #2a2b32;
+    --prefix-card-border: #393b43;
 
-    --#{prefix}-local-bg-color: #2a2b32;;
+    --prefix-local-bg-color: #2a2b32;
   }
 }
