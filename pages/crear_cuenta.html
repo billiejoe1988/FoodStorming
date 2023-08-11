@@ -9,22 +9,28 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
 </head>
-<body>
+<body class="base">
    <!-- HEADER -->
-   <header class="container-fluid bg-success">
+   <header class="base-header container-fluid bg-success">
     <div class= row>
-      <div class=" col  d-flex justify-content-center">
-        <p class="text-light mb-0 p-2 fs-6">Contactanos (911) 9061-1111</p>
+      <div class=" col-10 d-flex justify-content-center">
+        <p class="base-header-text mb-0 p-2 fs-6">Contactanos (911) 9061-1111</p>
+      </div>
+      <div class=" col-2 d-flex justify-content-center p-1">
+        <select class="select form-select" id="theme-select">
+          <option value="light" selected>Claro</option>
+          <option value="dark" selected>Oscuro</option>
+        </select>
       </div>
     </div>        
   </header>
   <!-- NAV -->
   <section class ="container-fluid">
     <div class= "row">
-      <nav class="navbar navbar-expand-lg bg-light p-3 col">
+      <nav class="navbar nav base-navbar navbar-expand-lg bg-light p-3 col">
           <div class="container-fluid">
             <div class="img_logo px-2">
-              <img src="../image/logo.jpg" alt="logo"  height="100px">
+              <img src="../image/logo_gif.gif" alt="logo" class="rounded-circle" height="100px">
             </div>
             <a class="navbar-brand" href="#"> 
               <span class="text-success fs-5 fw-bolt">Food Storming</span></a>
@@ -34,36 +40,36 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  <a class="nav-link hero-title active" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link hero-title" href="../pages/quienes_somos.html">Quienes Somos?</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="quienes_somos.html">Quienes Somos?</a>
+                  <a class="nav-link hero-title" href="../pages/contenido.html">Recetas</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./contenido.html">Recetas</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./contacto.html">Contactenos</a>
+                  <a class="nav-link hero-title" href="../pages/contacto.html">Contactenos</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href=".#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link hero-title dropdown-toggle" href=".#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Perfil
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="./perfil.html"></a>Cuenta</li>
+                    <li><a class="nav-link hero-title dropdown-item" href="#"></a>Cuenta</li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="./login.html">Login</a></li>
-                    <li><a class="dropdown-item" href="./crear_cuenta.html">Crear Cuenta</a></li>
+                    <li><a class="nav-link  hero-title dropdown-item" href="../pages/login.html">Login</a></li>
+                    <li><a class="nav-link hero-title dropdown-item" href="../pages/crear_cuenta.html">Crear Cuenta</a></li>
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled">Unanse a nuestra comunidad de discord</a>
+                  <a class="hero-text nav-link disabled">Unanse a nuestra comunidad de discord</a>
                   <a href="https://www.discord.com/food_storming" target="_blank"><img src="../assets/bxl-discord-alt.svg" alt="link_discord"></a>
                 </li> 
               </ul>
               <form class="d-flex" role="search">
-                <input class="form-control me-3 " type="email" placeholder="Correo electronico" aria-label="email">
-                <button class="btn btn-outline-success" type="button">Suscribete</button>
+                <input class="form-control me-3 input" type="email" placeholder="Correo electronico" aria-label="email">
+                <button class="btn btn-outline" type="button">Suscribete</button>
               </form>
             </div>
           </div>
@@ -76,56 +82,57 @@
         <section class="container-fluid p-3 crear_cuenta">
           <form class = "col-12">
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Direccion Email</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <label for="exampleInputEmail1" class="form-label hero-text">Direccion Email</label>
+              <input type="email" class="form-control input" id="exampleInputEmail1" aria-describedby="emailHelp">
               <div id="emailHelp" class="form-text">Nunca compartiremos tu correo electronico con nadie mas.</div>
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Nombre</label>
-              <input type="text" class="form-control" id="exampleInputPassword1">
+              <label for="exampleInputPassword1" class="form-label hero-text">Nombre</label>
+              <input type="text" class="form-control input" id="exampleInputPassword1">
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Apellido</label>
-              <input type="text" class="form-control" id="exampleInputPassword1">
+              <label for="exampleInputPassword1" class="form-label hero-text">Apellido</label>
+              <input type="text" class="form-control input" id="exampleInputPassword1">
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Usuario</label>
-              <input type="user" class="form-control" id="exampleInputPassword1">
+              <label for="exampleInputPassword1" class="form-label hero-text">Usuario</label>
+              <input type="user" class="form-control input " id="exampleInputPassword1">
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
+              <label for="exampleInputPassword1" class="form-label hero-text">Password</label>
+              <input type="password" class="form-control input " id="exampleInputPassword1">
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Numero de Telefono</label>
-              <input type="tel" class="form-control" id="exampleInputPassword1">
+              <label for="exampleInputPassword1" class="form-label hero-text">Numero de Telefono</label>
+              <input type="tel" class="form-control input" id="exampleInputPassword1">
             </div>
             <div class="mb-3 pb-5 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Acepto los Terminos y condiciones</label>
+              <input type="checkbox" class="form-check-input input" id="exampleCheck1">
+              <label class="form-check-label hero-text" for="exampleCheck1">Acepto los Terminos y condiciones</label>
             </div>
-            <button class="btn btn-outline-success" type="button">Registrarme</button>
+            <button class="btn btn-primary " type="button">Registrarme</button>
           </form>
         </section>
     </main>
     <!-- FOOTER -->
-    <footer class="footer containter-fluid">
-      <div  class="d-flex justify-content-evenly align-items-center bg-success container_footer">
+    <footer class="base-footer containter-fluid">
+      <div  class="d-flex justify-content-evenly align-items-center  container_footer">
           <div id="col-4 iconos pl-15">
               <a href="https://www.twitter.com/food_storming" target="_blank"><img src="../assets/bxl-twitter.svg" alt="link_twitter"></a>
               <a href="https://www.instagram.com/food_storming" target="_blank"><img src="../assets/bxl-instagram-alt.svg" alt="link_instsa"></a>
               <a href="https://www.facebook.com/food_storming" target="_blank"><img src="../assets/bxl-facebook-square.svg" alt="link_facebook"></a>
           </div>
           <div class ="col-6 fs-5 px-2 text-center">
-            <a href="../pages/terminos_y_condiciones.html" class="text-decoration-none text-light fw-bold">Terminos y Condiciones</a>
-            <p class="fs-5 px-3 pt-3 text-light"> FoodStorming. &copy;Todos los derechos reservados 2023</p>
+            <a href="../pages/terminos_y_condiciones.html" class="hero-title link" >Terminos y Condiciones</a>
+            <p class="fs-5 px-3 pt-3 hero-text"> FoodStorming. &copy;Todos los derechos reservados 2023</p>
           </div>
-          <div class="col-2 img_logo px-6 mb-4 ">
-            <img src="../image/logo.jpg" alt="logo" height="100px">
+          <div class="col-2 img_logo px-6 mb-4 pt-2">
+            <img src="../image/logo_gif.gif" alt="logo" class="rounded-circle" height="100px">
         </div>
       </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" 
   crossorigin="anonymous"></script>
+  <script type="module" src="../app.js"></script>
 </body>
 </html>

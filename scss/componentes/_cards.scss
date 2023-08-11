@@ -1,12 +1,13 @@
 $card-bg: var(--#{$prefix}-card-bg, $color-primary) !important;
 $card-radius: var(--#{$prefix}-card-radius, 12px);
-$card-border: var(--#{$prefix}-cards-border, $color-secondary);
+$card-border: var(--#{$prefix}-cards-border, $color-secondary) !important;
 
 .card{
-    border: 1px solid $card-border;
+    border: 1px solid transparent;
     box-shadow: $shadow;
     border-radius: $card-radius;
     background-color: $card-bg;
+
 
     &:hover{
         box-shadow: $shadow;
