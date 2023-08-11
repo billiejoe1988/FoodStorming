@@ -1,5 +1,7 @@
 .link{
-    color: $color-full-contraste !important;
+  --#{prefix}-link-text-color: #($color-secondary-contrast) !important;
+    
+    color: var(--#{prefix}-link-text-color) !important;
     opacity: 0.8;
     transition: all 0.2 ease-in-out;
     text-decoration: none;

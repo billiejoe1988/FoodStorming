@@ -1,10 +1,10 @@
 //btn
 .btn{
-    --#{$prefix}-btn-bg: #($color-terciario);
-    --#{$prefix}-btn-color: #($color-blanco);
-    --#{$prefix}-btn-border-color: #($color-blanco);
-    --#{$prefix}-btn-hover-bg: #($color-full-contraste);
-    --#{$prefix}-btn-hover-color: #($color-blanco);
+    --#{$prefix}-btn-bg: #($color-focus) !important;
+    --#{$prefix}-btn-color: #($color-blanco) !important;
+    --#{$prefix}-btn-border-color: #($color-blanco) !important;
+    --#{$prefix}-btn-hover-bg: #($color-secondary-contrast) !important;
+    --#{$prefix}-btn-hover-color: #($color-blanco)!important;
 
     outline: 0;
     text-align: center;

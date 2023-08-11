@@ -1,7 +1,7 @@
 $input-bg-color: var(--#{$prefix}-input-bg-color, $color-blanco);
-$input-text-color: var(--#{$prefix}-input-text-color, $color-full-contraste);
-$input-border-color: var(--#{$prefix}-input-border-color, $color-terciario);
-$input-focus-boder-color: var(--#{$prefix}-input-focus-border-color, $color-secundario);
+$input-text-color: var(--#{$prefix}-input-text-color, $color-focus);
+$input-border-color: var(--#{$prefix}-input-border-color, $color-focus);
+$input-focus-boder-color: var(--#{$prefix}-input-focus-border-color, $color-secondary);
 
 .input{
     color: $input-text-color;

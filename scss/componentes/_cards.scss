@@ -1,6 +1,6 @@
-$card-bg: var(--#{$prefix}-card-bg, $color-blanco);
+$card-bg: var(--#{$prefix}-card-bg, $color-primary) !important;
 $card-radius: var(--#{$prefix}-card-radius, 12px);
-$card-border: var(--#{$prefix}-cards-border, $color-secundario);
+$card-border: var(--#{$prefix}-cards-border, $color-secondary);
 
 .card{
     border: 1px solid $card-border;

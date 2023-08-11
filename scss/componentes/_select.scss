@@ -1,8 +1,8 @@
-$select-bg-color: var(--#{$prefix}-select-bg-color, $color-secundario) !important;
+$select-bg-color: var(--#{$prefix}-select-bg-color, $color-focus) !important;
 $select-hover-color: var(--#{$prefix}-select-hover-color, $color-blanco) !important;
-$select-text-color: var(--#{$prefix}-select-text-color, $body-text-color) !important;
-$select-border-color: var(--#{$prefix}-select-border-color, $color-terciario) !important;
-$select-focus-color: var(--#{$prefix}-select-focus-color, $color-contraste) !important;
+$select-text-color: var(--#{$prefix}-select-text-color, $color-primary) !important;
+$select-border-color: var(--#{$prefix}-select-border-color, $color-blanco) !important;
+$select-focus-color: var(--#{$prefix}-select-focus-color, $color-primary) !important;
 
 .select{
    color: $select-text-color;

@@ -1,16 +1,17 @@
 .nav{
-    --#{$prefix}-navbar-bg: #($color-primario) !important;
-    --#{$prefix}-nav-color: #($color-full-contrast) !important;
+    --#{$prefix}-navbar-bg: #($color-primary) !important;
+    --#{$prefix}-nav-color: #($color-secondary-contrast) !important;
 
     background-color: var(--#{$prefix}-navbar-bg) !important;
     
     &-link{
-        color: $color-full-contraste !important;
+        color: var(--#{$prefix}-nav-color)!important;
         opacity: 0.8; 
         transition: all 0.2 ease-in-out;
         text-decoration: none;
     
         &:hover{
             opacity: 1;
+            color: $color-blanco !important;
         }
 }}

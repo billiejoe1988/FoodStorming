@@ -1,6 +1,6 @@
 .footer{
-    --#{$prefix}-footer-bg: #($color-primary);
-    --#{$prefix}-footer-color: #($color-primary-contrast);
+    --#{$prefix}-footer-bg: #($color-primary) !important;
+    --#{$prefix}-footer-color: #($color-primary-contrast) !important;
 
     background-color: var(--#{$prefix}-footer-bg);
     &-link{
