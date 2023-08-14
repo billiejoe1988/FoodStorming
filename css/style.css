@@ -5,6 +5,7 @@
   --color-secondary: #2a2b32 !important;
   --color-contraste: #635274 !important;
   --color-blanco: #ffffff !important;
+  --color-terciary:#7bb0a8 !important;
   --prefix-body-bg-color: #1f2023 !important;
   --prefix-body-text-color: #bebebe !important;
   --prefix-heading-text-color: #ffffff !important;
@@ -18,7 +19,7 @@
   --prefix-nav-link: #e4f5b1 !important;
   --prefix-link-text-color: #e4f5b1 !important;
   --prefix-hero-title-color: #a7dbab!important;
-  --prefix-hero-text-color: #e4f5b1 !important;
+  --prefix-hero-text-color: #7bb0a8 !important;
   --prefix-color-secondary: #393b43 !important;
   --prefix-color-secondary-hover: #2b2c32 !important;
   --prefix-color-secondary-contrast: #e4f5b1 !important;
@@ -106,7 +107,7 @@
 }
 
 .card {
-  border: 1px solid var(--fs-cards-border, var(--prefix-color-secondary, #a7dbab));
+  border: 1px solid transparent;
   box-shadow: 0 1px 3px 0 rgb(var(--fs-shadow-color, rgb(51, 65, 85))/0.1), 0 1px 2px -1px rgb(var(--fs-shadow-color, rgb(51, 65, 85))/0.1);
   border-radius: var(--fs-card-radius, 12px);
   background-color: var(--fs-card-bg, var(--prefix-color-primary, #e4f5b1)) !important;
