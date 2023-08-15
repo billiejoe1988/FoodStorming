@@ -1,38 +1,38 @@
 :root[data-bs-theme=dark] {
   color-scheme: dark;
-  --color: #1f2023 !important;
-  --color-primary: #e4f5b1 !important;
-  --color-secondary: #2a2b32 !important;
-  --color-contraste: #635274 !important;
-  --color-blanco: #ffffff !important;
-  --color-terciary:#7bb0a8 !important;
-  --prefix-body-bg-color: #1f2023 !important;
-  --prefix-body-text-color: #bebebe !important;
-  --prefix-heading-text-color: #ffffff !important;
-  --prefix-header-bg-color: #2e2f36 !important;
-  --prefix-header-border-color: #393b43 !important;
-  --prefix-nav-bg-color: #393939 !important;
-  --prefix-footer-bg-color: #393b43 !important;
-  --prefix-color-primary: #e4f5b1 !important;
-  --prefix-color-primary-hover: #e4f5b1 !important;
-  --prefix-color-primary-contrast: #1f2023 !important;
-  --prefix-nav-link: #e4f5b1 !important;
-  --prefix-link-text-color: #e4f5b1 !important;
-  --prefix-hero-title-color: #a7dbab!important;
-  --prefix-hero-text-color: #7bb0a8 !important;
-  --prefix-color-secondary: #393b43 !important;
-  --prefix-color-secondary-hover: #2b2c32 !important;
-  --prefix-color-secondary-contrast: #e4f5b1 !important;
-  --prefix-input-bg-color: #27282d !important;
-  --prefix-input-border-color: #393b43 !important;
-  --prefix-input-focus-border-color: #e4f5b1!important;
-  --prefix-select-bg-color: #2e2f36 !important;
-  --prefix-select-hover-color: #393b43 !important;
-  --prefix-select-border-color: transparent !important;
-  --prefix-select-focus-color:#e4f5b1!important;
-  --prefix-card-bg: #2a2b32 !important;
-  --prefix-card-border: #393b43 !important;
-  --prefix-local-bg-color: #2a2b32 !important;
+  --color: #1f2023;
+  --color-primary: #e4f5b1;
+  --color-secondary: #2a2b32;
+  --color-contraste: #635274 ;
+  --color-blanco: #ffffff;
+  --color-terciary:#7bb0a8 ;
+  --prefix-body-bg-color: #1f2023;
+  --prefix-body-text-color: #bebebe ;
+  --prefix-heading-text-color: #ffffff;
+  --prefix-header-bg-color: #2e2f36;
+  --prefix-header-border-color: #393b43 ;
+  --prefix-nav-bg-color: gray;
+  --prefix-footer-bg-color: #393b43;
+  --prefix-color-primary: #e4f5b1;
+  --prefix-color-primary-hover: #e4f5b1 ;
+  --prefix-color-primary-contrast: #1f2023 ;
+  --prefix-nav-link: #e4f5b1 ;
+  --prefix-link-text-color: #e4f5b1 ;
+  --prefix-hero-title-color: #635274 ;
+  --prefix-hero-text-color:#e4f5b1;
+  --prefix-color-secondary: #393b43;
+  --prefix-color-secondary-hover: #2b2c32 ;
+  --prefix-color-secondary-contrast: #e4f5b1 ;
+  --prefix-input-bg-color: #27282d;
+  --prefix-input-border-color: #393b43 !;
+  --prefix-input-focus-border-color: #e4f5b1;
+  --prefix-select-bg-color: #2e2f36;
+  --prefix-select-hover-color: #393b43 ;
+  --prefix-select-border-color: transparent ;
+  --prefix-select-focus-color:#e4f5b1;
+  --prefix-card-bg: #2a2b32;
+  --prefix-card-border: #393b43;
+  --prefix-local-bg-color: #2a2b32;
 }
 
 .btn {
@@ -119,7 +119,6 @@
 .footer {
   --fs-footer-bg: #($color-primary) !important;
   --fs-footer-color: #($color-primary-contrast) !important;
-  background-color: var(--fs-footer-bg);
 }
 .footer-link {
   color: var(--prefix-color-blanco, white);
@@ -186,9 +185,9 @@
 }
 
 .nav {
-  --fs-navbar-bg: #($color-primary) !important;
   --fs-nav-color: #($color-secondary-contrast) !important;
-  background-color: var(--fs-navbar-bg) !important;
+  background: rgb(34, 195, 182) !important;
+  background: linear-gradient(0deg, rgba(34, 195, 182, 0.0566351541) 0%, rgb(167, 219, 171) 100%) !important;
 }
 .nav-link {
   color: var(--fs-nav-color) !important;
@@ -250,7 +249,7 @@ body {
 }
 .base-header {
   border-bottom: 1px solid var(--prefix-header-border-color, var(--prefix-color-focus, #7bb0a8)) !important;
-  background-color: var(--prefix-header-bg-color, var(--prefix-color-secondary, #a7dbab)) !important;
+  background-color: var(--prefix-header-bg-color, var(--prefix-color-primary, #e4f5b1)) !important;
 }
 .base-header-text {
   color: var(--prefix-hero-title-color, var(--fs-color-secondary-contrast, #512b52)) !important;
@@ -259,7 +258,8 @@ body {
   background-color: var(--prefix-nav-bg-color, var(--prefix-color-primary, #e4f5b1)) !important;
 }
 .base-footer {
-  background-color: var(--prefix-footer-bg-color, var(--prefix-color-secondary, #a7dbab)) !important;
+  background: rgb(34, 195, 182) !important;
+  background: linear-gradient(0deg, rgba(34, 195, 182, 0.0566351541) 0%, rgb(167, 219, 171) 100%) !important;
 }
 
 .hero-title {
@@ -283,6 +283,15 @@ body {
   align-items: center;
   text-align: center;
   justify-content: center;
+}
+
+#particles-js {
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -1;
 }
 
 .animate-all {

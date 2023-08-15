@@ -1,10 +1,11 @@
 .nav{
-    --#{$prefix}-navbar-bg: #($color-primary) !important;
     --#{$prefix}-nav-color: #($color-secondary-contrast) !important;
 
-    background-color: var(--#{$prefix}-navbar-bg) !important;
+    background: rgb(34,195,182)!important;
+    background: linear-gradient(0deg, rgba(34,195,182,0.05663515406162467) 0%, rgba(167,219,171,1) 100%)!important;
     
     &-link{
+
         color: var(--#{$prefix}-nav-color)!important;
         opacity: 0.8; 
         transition: all 0.2 ease-in-out;

@@ -2,7 +2,6 @@
     --#{$prefix}-footer-bg: #($color-primary) !important;
     --#{$prefix}-footer-color: #($color-primary-contrast) !important;
 
-    background-color: var(--#{$prefix}-footer-bg);
     &-link{
         color: $color-blanco;
         opacity: 0.8;
