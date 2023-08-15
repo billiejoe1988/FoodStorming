@@ -1,1 +1,3 @@
-/sketch
+*.log
+sketch/
+node_modules/
