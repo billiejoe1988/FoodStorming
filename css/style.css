@@ -264,6 +264,8 @@ body {
 
 .hero-title {
   color: var(--prefix-hero-title-color, var(--fs-color-secondary-contrast, #512b52)) !important;
+  animation: tada;
+  animation-duration: 2s;
 }
 
 .hero-text {

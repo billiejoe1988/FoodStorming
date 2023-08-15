@@ -31,6 +31,8 @@ body{
 }
 .hero-title{
     color:$hero-title-color;
+    animation:tada;
+    animation-duration: 2s;
 }
 .hero-text{
     color:$hero-text-color;
