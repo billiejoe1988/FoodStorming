@@ -238,6 +238,12 @@
   height: 48px;
 }
 
+#img-404 {
+  height: auto;
+  width: auto;
+  padding: 0.5rem;
+}
+
 body {
   overflow-x: hidden;
   padding: 0;
