@@ -1,25 +1,24 @@
-FoodStorming
+### FoodStorming
+A web platform featuring gastronomic content and a variety of recipes created by a team of professionals.
 
-Web con contenido gastronomico, recetas de todo tipo, realizada por equipo de profesionales.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+This project was conceived for the third web development assignment at Coderhouse. It utilizes full Bootstrap with all the tools I have learned. In the almost final stage of the project, I implemented structural changes with SASS to adapt my framework as much as possible to BEM conventions, added some JavaScript details, animations, and applied SEO practices (improving image loading performance with the corresponding format, WEPB, using meta description, keywords, and social media links for better positioning).
 
-Proyecto pensado para tercera entrega de desarrollo web en coderhouse.
-utilizando full bootstrap con todas las herramientas que pude haber aprendido.
-Etapa casi final del proyecto, Agregandole estructura cambios con SASS, para adaptar mi framework con dentro de lo posible con BEM, unos detalles de js, animaciones y SEO aplicado.(Mejorar el rendimiento de la carga de imagenes con su formato correspondiente(WEPB), utilizando meta desciption, keywords y redes para mejor posicionamiento).
+All pages are fully functional and responsive up to mobile devices . Currently, in the recipe cards menu, you can only access the first recipe (chocolate mousse) to view the chosen design.
 
-Todas sus paginas funcionales y responsive hasta moviles 466px, por ahora en el menu de cards de recetas solo se puede ingresar a la primera (mouse de chocolate) para ver el diseno elegido. 
+# Created by Mauri Arbelaiz.
 
-Creado por Mauricio Arbelaiz.
-https://github.com/billiejoe1988
-https://www.instagram.com/m.arbelaiz/
+# Final Grade: 10
 
+## Links:
+- [Figma Mockup](https://www.figma.com/file/dsOpvGA5gtWhEFqhOmJkqo/Mockup-Cocina?type=design&mode=design&t=w2DJSMA5G7w1T70l-1 Figma del mock-up.)
+- [Live Demo (InfinityFree)](http://foodstorming.infinityfreeapp.com/ Link de la pagina subida a infinityfree.)
+- [404 Page (InfinityFree)](http://foodstorming.infinityfreeapp.com/pages/404.html Link de la pagina 404 subida a infinityfree.)
+- [GitHub Pages](https://billiejoe1988.github.io/PF-Arbelaiz/ subida a git-pages.)
+- [GitHub Repository](https://github.com/billiejoe1988/PF-Arbelaiz link del repositories.)
 
-Links:
-https://www.figma.com/file/dsOpvGA5gtWhEFqhOmJkqo/Mockup-Cocina?type=design&mode=design&t=w2DJSMA5G7w1T70l-1 Figma del mock-up.
-http://foodstorming.infinityfreeapp.com/ Link de la pagina subida a infinityfree.
-http://foodstorming.infinityfreeapp.com/pages/404.html Link de la pagina 404 subida a infinityfree.
-https://billiejoe1988.github.io/PF-Arbelaiz/ subida a git-pages.
-https://github.com/billiejoe1988/PF-Arbelaiz link del repositories.
-
-librerias utilizadas:
-https://animate.style/ para animacion en titulos.
-https://vincentgarreau.com/particles.js/ para fondo de particulas js.
+## Used Libraries:
+- Animate.css - for title animations.
+- Particles.js - for the particle background.
+  
+Thank you for visiting our project!
